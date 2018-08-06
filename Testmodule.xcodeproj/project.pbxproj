@@ -295,15 +295,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DXZ365TQ99;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7LD5QKB26C;
 				INFOPLIST_FILE = Testmodule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lemon.Testmodule;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cmcc.enterprise-classID.onecardmultinumber.sdk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b40aa57-aa2b-4d59-810a-8f0b6e7ff745";
+				PROVISIONING_PROFILE_SPECIFIER = "com.cmcc.enterprise-classID.onecardmultinumber";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -312,15 +315,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DXZ365TQ99;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7LD5QKB26C;
 				INFOPLIST_FILE = Testmodule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lemon.Testmodule;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cmcc.enterprise-classID.onecardmultinumber.sdk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b40aa57-aa2b-4d59-810a-8f0b6e7ff745";
+				PROVISIONING_PROFILE_SPECIFIER = "com.cmcc.enterprise-classID.onecardmultinumber";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
